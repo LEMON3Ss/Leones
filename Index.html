@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Autobiography</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background-color: #4f46e5;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #e6e8fc;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #4f46e5;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .book {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px;
+      border: 2px solid #999;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      background-color: #4f46e5;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .section-content {
+      background-color: #e6e8fc;
+      padding: 10px;
+      border-radius: 0 0 5px 5px;
+      margin-top: -1px;
+    }
+  </style>
+</head>
+<body>
+  <header>My Autobiography</header>
+
+  <nav>
+    <a href="#intro">About Me</a>
+    <a href="#hobbies">Hobbies</a>
+  </nav>
+
+  <div class="container">
+    <div class="book">
+      <div class="profile-pic">
+        <img src="moonie.jpg" alt="My Picture" />
+      </div>
+
+      <div class="section">
+        <div class="section-title">Moonie Rey L. Leonen</div>
+        <div class="section-content">Born on September 20,2004 living in San Cristobal, Bangar, La Union and now currently a College 3rd year student in ISPSC Tagudin Campus leaving a normal life like a normal person</div>
+      </div>
+
+      <div class="section" id="hobbies">
+        <div class="section-title">My Hobbies</div>
+        <div class="section-content">Gaming, Some outdoor activities, exploring technology, and reading.</div>
+        <div class="section-content">Got influenced by my uncle's who like gaming where they played some games and I'm the one watching them and they let me play too and now i can play with my own device because of this new era I'm able to access them and i explore more digitals devices where you can do more advanced things because the evolution of gadgets and about reading sometimes i read mangas/comics well to balanced in Playing games also i go out to feel the freshness of air i do some stretching and some walking go out and sometimes to hang with friends.</div></div>
+  </div>
+</body>
+</html>
